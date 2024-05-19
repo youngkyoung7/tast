@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+ul{list-style: none;}
+a{text-decoration: none; color: initial;}
+header{width: 100%;
+  height: 70px;
+  position: fixed;
+  top:0;left: 0;
+ 
+
+}
+.hWarp{width: 1440px; height: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.logo{width: 92px ; height:52px ; }
+.logo img{width: 100%; height: 100%;;}
+.gnb{display: flex; justify-content: center;}
+
+.gnb li{margin-right: 30px;}
+.warp{width: 100%; height: 100vh;
+  display: flex
+}
+
+/*왼쪽*/
+.warp .left{width: 40%; background-color: #4882D2;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.warp .left .title{
+  font-size: 100px;
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+  padding-top: 30px;
+}
+/*버튼*/
+.view_btn{width: 250px; height: 64px;
+ 
+  line-height: 64px;
+  border: 1px solid #ffff;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;  
+  display: none;
+}
+.view_btn a{ font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.view_btn:hover{box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5); }
+.btn1{display: block;}
+
+/*오른쪽*/
+.warp .right{width: 60%;}
+.right .content_wrap{ width: 900px; height: 550px;
+  
+  margin: 20% auto 0;
+}
+.right .content_wrap img{width: 100%; height: 100%; display: none;}
+.right .content_wrap .img1{display: block;}
+
+.shoesColor{display: flex;justify-content: center;}
+.shoesColor li{width: 250px; height:150px; border-radius: 20px;
+  overflow: hidden;
+  margin-right: 30px;}
+.shoesColor li.on{box-shadow:  5px 5px 6px 0 rgba(0,0,0,0.5)}
+.shoesColor li img{width: 100%; height: 100%;}
