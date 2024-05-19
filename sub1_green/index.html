@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style_sub1.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>반스 운동화-그린</title>
+    <script type="importmap">
+    
+      {
+          "imports": {
+              "three": "https://cdn.jsdelivr.net/npm/three@0.121.1/build/three.module.js",
+              "gltf":"https://cdn.jsdelivr.net/npm/three@0.121.1/examples/jsm/loaders/GLTFLoader.js",
+              "orbit": "./js/OrbitControls.js"
+          }
+      }
+    </script>
+<!--  type="module"을 하면 해당 js파일은 strict mode가 된다.
+  고유 스코프를 가지기 때문에 다른 js 
+  파일의 객체를 가져다 쓰려면 export한 js파일을 import를 해준다.
+
+  
+  */-->
+
+  </head>
+  <body>
+
+    <h1 class="title">Vans 'Tokyo Design Collective'</h1>
+    <script type="module" src="./js/main_sub1.js"></script>
+  </body>
+</html>
